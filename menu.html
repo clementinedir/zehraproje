@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | Dolce Vita Pasticceria</title>
+  <meta name="description" content="Explore our full menu of authentic Italian pastries, cakes, gelato, and beverages. Vegetarian, vegan, and gluten-free options available.">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Structured Data for LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Dolce Vita Pasticceria",
+    "image": "https://picsum.photos/seed/bakery/1200/800",
+    "@id": "",
+    "url": "https://dolcevitapasticceria.com",
+    "telephone": "+44 20 7946 0958",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 Roma Avenue",
+      "addressLocality": "London",
+      "postalCode": "EC1A 1BB",
+      "addressCountry": "UK"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Dolce Vita</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="text-center" style="margin-bottom: var(--space-xl);">Our Menu</h1>
+        
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter-type="category" data-filter-value="all">All Items</button>
+          <button class="filter-btn" data-filter-type="category" data-filter-value="Pastries">Pastries</button>
+          <button class="filter-btn" data-filter-type="category" data-filter-value="Cakes & Torte">Cakes & Torte</button>
+          <button class="filter-btn" data-filter-type="category" data-filter-value="Gelato">Gelato</button>
+          <button class="filter-btn" data-filter-type="category" data-filter-value="Beverages">Beverages</button>
+          <button class="filter-btn" data-filter-type="category" data-filter-value="Seasonal">Seasonal</button>
+          <span style="border-left: 1px solid var(--color-border); margin: 0 var(--space-sm);"></span>
+          <button class="filter-btn" data-filter-type="diet" data-filter-value="GF">Gluten-Free</button>
+          <button class="filter-btn" data-filter-type="diet" data-filter-value="V">Vegetarian</button>
+          <button class="filter-btn" data-filter-type="diet" data-filter-value="Vegan">Vegan</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div id="menu-grid" class="grid grid-4">
+          <!-- Rendered via JS -->
+        </div>
+
+        <!-- Allergen Notice -->
+        <div class="text-center" style="margin-top: var(--space-3xl); max-width: 800px; margin-left: auto; margin-right: auto; padding-top: var(--space-xl); border-top: var(--border);">
+          <h4>Allergen Information</h4>
+          <p class="meta-text" style="margin-top: var(--space-sm);">
+            We handle dairy, eggs, nuts, wheat, and soy in our kitchen. While we take utmost care to prevent cross-contamination, our gluten-free and vegan items are prepared in the same environment as our other products. If you have a severe allergy, please speak to a member of our team before ordering.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h2 class="logo">Dolce Vita</h2>
+          <p style="margin-top: var(--space-md); opacity: 0.8;">Authentic Italian pasticceria bringing la dolce vita to your everyday.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.325V1.325C24 .597 23.403 0 22.675 0z"/></svg>
+            </a>
+            <a href="#" aria-label="TripAdvisor">
+              <svg viewBox="0 0 24 24"><path d="M12.001 23.959c-6.617 0-11.98-5.362-11.98-11.979C.021 5.362 5.384 0 12.001 0c6.616 0 11.979 5.362 11.979 11.98 0 6.617-5.363 11.979-11.979 11.979zm7.042-8.318c-1.42 0-2.571-1.15-2.571-2.57s1.151-2.572 2.571-2.572 2.57 1.152 2.57 2.572-1.15 2.57-2.57 2.57zm-14.084 0c-1.42 0-2.571-1.15-2.571-2.57s1.151-2.572 2.571-2.572 2.57 1.152 2.57 2.572-1.15 2.57-2.57 2.57zm7.042 1.488c2.474 0 4.479-2.004 4.479-4.479s-2.005-4.479-4.479-4.479-4.479 2.004-4.479 4.479 2.005 4.479 4.479 4.479zm0 1.258c-4.464 0-8.232-2.885-9.664-6.953-1.21-3.447-.234-7.387 2.56-9.824 3.738-3.26 9.387-3.252 13.111.015 2.84 2.49 3.784 6.452 2.518 9.9-1.458 4.014-5.184 6.862-9.525 6.862zm0-4.043c-1.614 0-2.923-1.309-2.923-2.923 0-1.615 1.309-2.924 2.923-2.924s2.923 1.309 2.923 2.924c0 1.614-1.309 2.923-2.923 2.923z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3>Visit Us</h3>
+          <ul class="footer-links">
+            <li>124 Roma Avenue</li>
+            <li>London, EC1A 1BB</li>
+            <li><a href="tel:+442079460958">+44 20 7946 0958</a></li>
+            <li><a href="mailto:ciao@dolcevitapasticceria.com">ciao@dolcevitapasticceria.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="custom-orders.html">Order a Cake</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Opening Hours</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Dolce Vita Pasticceria. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
