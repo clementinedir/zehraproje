@@ -2,12 +2,12 @@
 
 :root {
   /* Colors */
-  --color-bg: #FAF3E0;
-  --color-bg-alt: #F2E8D0;
+  --color-bg: #ddd1bd;
+  --color-bg-alt: #aa9d81;
   --color-bg-dark: #3B2410;
-  --color-accent: #C1440E;
-  --color-accent-hover: #A33A0C;
-  --color-gold: #C8952A;
+  --color-accent: #bc5c33;
+  --color-accent-hover: #a2b0b5;
+  --color-gold: #2f2c2641;
   --color-gold-light: #F0D49A;
   --color-border: #DDD0B3;
   --color-text: #2E1A0E;
@@ -228,8 +228,9 @@ header {
 .nav-links a {
   font-family: var(--font-body);
   font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--color-text);
   position: relative;
@@ -290,7 +291,7 @@ header {
 }
 
 .btn-ghost:hover {
-  background: black;
+  background: var(--color-accent);
   color: var(--color-text-light);
 }
 
@@ -832,7 +833,7 @@ footer {
   font-size: 24px;
   position: relative;
   overflow: hidden;
-  background-image: url('https://picsum.photos/seed/map/1200/400');
+  background-image: url(imagess/dolce_vita_1.png);
   background-size: cover;
   background-position: center;
 }
